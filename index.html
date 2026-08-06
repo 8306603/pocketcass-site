@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#09090a">
+  <title>PocketCass</title>
+  <link rel="icon" type="image/png" href="assets/icon.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-initial-view="home">
+  <main class="player-shell">
+    <header class="cassette-stage">
+      <div class="cassette-identity">
+        <div class="cassette-name"><b>PocketCass<sup>®</sup></b><small>TYPE I (NORMAL) POSITION</small></div>
+        <i class="cassette-arrow" aria-hidden="true"></i>
+        <div class="cassette-model"><small>COMPACT<br>CASSETTE</small><b>CHF</b><span>60</span></div>
+      </div>
+      <div class="cassette-housing" aria-hidden="true">
+        <i class="housing-hole left"></i><div class="head-pad"><i></i></div><i class="housing-hole right"></i>
+      </div>
+    </header>
+
+    <nav class="transport" aria-label="Site navigation">
+      <a class="transport-key" href="index.html" data-view-link="home"><b>◀◀</b><span data-copy="homeNav">Home</span></a>
+      <a class="transport-key" href="privacy.html" data-view-link="privacy"><b>■</b><span data-copy="privacyNav">Privacy</span></a>
+      <a class="transport-key play-key" href="support.html" data-view-link="support"><b>▶</b><span data-copy="supportNav">Support</span></a>
+    </nav>
+
+    <section class="player-bay" aria-live="polite">
+      <div class="bay-glass">
+        <article id="contentPanel" class="content-panel"><div id="pageContent"></div></article>
+      </div>
+    </section>
+
+    <footer class="player-footer">
+      <label class="language"><span>LANGUAGE</span><select id="languageSelect" aria-label="Language"></select></label>
+      <div class="power-status"><small>POWER</small><span class="power-led" aria-hidden="true"></span></div>
+      <span class="copyright">© 2026 POCKETCASS</span>
+    </footer>
+  </main>
+  <script src="site.js"></script>
+</body>
+</html>
